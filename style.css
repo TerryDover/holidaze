@@ -35,7 +35,7 @@ body {
   padding-right: 50px;
 }
 
-#menu {
+/*#menu {
   width: 840px;
   height: 62px;
   text-align: right;
@@ -70,36 +70,36 @@ body {
   background-image: url(images/blueline.jpg);
   background-repeat: repeat-x;
   float: right;
-}
+}*/
 
 #realbody {
   margin-top: 10px;
   width: 840px;
 }
 
-#verticalmenu {
+/*#verticalmenu {
   width: 200px;
   float: left;
   overflow: hidden;
-}
+}*/
 
 h3 {
   font-family: Verdana, Arial, Times, san-serif;
-  font-size: 12px;
+  font-size: 32px;
   font-weight: bold;
   color: #99ccff;
 }
 
 h4 {
   font-family: Verdana, Arial, Times, san-serif;
-  font-size: 12px;
+  font-size: 30px;
   font-weight: bold;
   color: #99ccff;
   padding-top: 36px;
   padding-left: 60px;
 }
 
-#verticalmenu ul li {
+/*#verticalmenu ul li {
   list-style-type: circle;
   color: #99ccff;
 }
@@ -113,12 +113,12 @@ h4 {
 
 #verticalmenu ul li a:hover {
   text-decoration: underline;
-}
+}*/
 
 #content {
   width: 640px;
   float: right;
-  background-image: url(images/seaweed.jpg);
+  background-image: url "";
   background-repeat: no-repeat;
   background-position: bottom right;
   overflow: hidden;
@@ -127,18 +127,18 @@ h4 {
 
 #content p {
   font-family: Verdana, Arial, Times, san-serif;
-  font-size: 10px;
+  font-size: 20px;
   color: #ffffff;
 }
 
-.bubble {
+/*.bubble {
   width: 640px;
   height: 60px;
   background-image: url(images/bubble.jpg);
   background-repeat: no-repeat;
   background-position: left;
   clear: both;
-}
+}*/
 
 #foot {
   margin: 40px auto;
