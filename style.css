@@ -3,7 +3,6 @@ body {
   padding: 0;
   background-color: #000033;
   background-image: url(images/BackGroundSnow.jpg);
-  background-repeat: repeat-x;
   background-position: top;
 }
 
@@ -127,7 +126,7 @@ h4 {
 
 #content p {
   font-family: Verdana, Arial, Times, san-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: #ffffff;
 }
 
