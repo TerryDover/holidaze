@@ -34,53 +34,10 @@ body {
   padding-right: 50px;
 }
 
-/*#menu {
-  width: 840px;
-  height: 62px;
-  text-align: right;
-}
-
-#menu ul {
-  display: block;
-  padding-top: 30px;
-}
-
-#menu ul li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 20px;
-}
-
-#menu ul li a {
-  text-decoration: none;
-  font-family: Verdana, Arial, Times, san-serif;
-  font-size: 12px;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-#menu ul li a:hover {
-  color: #ff9900;
-}
-
-#blueline {
-  width: 640px;
-  height: 3px;
-  background-image: url(images/blueline.jpg);
-  background-repeat: repeat-x;
-  float: right;
-}*/
-
 #realbody {
   margin-top: 10px;
   width: 840px;
 }
-
-/*#verticalmenu {
-  width: 200px;
-  float: left;
-  overflow: hidden;
-}*/
 
 h3 {
   font-family: Verdana, Arial, Times, san-serif;
@@ -98,22 +55,6 @@ h4 {
   padding-left: 60px;
 }
 
-/*#verticalmenu ul li {
-  list-style-type: circle;
-  color: #99ccff;
-}
-
-#verticalmenu ul li a {
-  text-decoration: none;
-  font-family: Verdana, Arial, Times, san-serif;
-  font-size: 10px;
-  color: #ffffff;
-}
-
-#verticalmenu ul li a:hover {
-  text-decoration: underline;
-}*/
-
 #content {
   width: 640px;
   float: right;
@@ -130,21 +71,12 @@ h4 {
   color: #ffffff;
 }
 
-/*.bubble {
-  width: 640px;
-  height: 60px;
-  background-image: url(images/bubble.jpg);
-  background-repeat: no-repeat;
-  background-position: left;
-  clear: both;
-}*/
-
 #foot {
   margin: 40px auto;
   width: 840px;
   height: 60px;
   padding-top: 20px;
-  background-image: url(images/blueline.jpg);
+  background-image: url("");
   background-repeat: repeat-x;
   background-position: top;
   clear: both;
