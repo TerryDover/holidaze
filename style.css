@@ -1,3 +1,10 @@
+@font-face {
+  src: url(font/Gudea-Bold.ttf);
+  font-family: gud;
+  src: url(font/Rancho-Regular.ttf);
+  font-family: ran;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,10 +35,11 @@ body {
 
 #myname a {
   font-family: Verdana, Arial, Times, san-serif;
-  font-size: 48px;
+  font-size: 90px;
   font-weight: bold;
   color: #ffffff;
   padding-right: 50px;
+  font-family: ran;
 }
 
 #realbody {
@@ -66,8 +74,8 @@ h4 {
 }
 
 #content p {
-  font-family: Verdana, Arial, Times, san-serif;
-  font-size: 30px;
+  font-family: gud;
+  font-size: 45px;
   color: #ffffff;
 }
 
