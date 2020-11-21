@@ -1,21 +1,10 @@
-html {
-  background: #82d4e8;
-}
-
 @font-face {
-  src: url(font/Gudea-Regular.ttf);
-  font-family: txt;
+  src: url(font/Gudea-Italic.ttf);
+  font-family: gud;
   src: url(font/Rancho-Regular.ttf);
   font-family: ran;
 }
-main {
-  display: flex;
-}
-.bold {
-  font-size: 60px;
-  font-weight: 900;
-  font-family: ran;
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -71,35 +60,4 @@ body {
   font-family: gud;
   font-size: 35px;
   color: #ffffff;
-}
-.body-text {
-  font-size: 30px;
-  font-weight: 400;
-  color: rgb(65, 58, 58);
-  font-family: txt;
-}
-
-.item {
-  font-size: 1.5rem;
-  line-height: 1;
-  text-align: center;
-  padding: 1rem 2rem;
-  background: #82d4e8;
-}
-
-.sidebar-left {
-  background-color: #82d4e8;
-
-  order: 1;
-  flex: 2;
-  height: 55vh;
-}
-
-@media screen and (max-width: 575px) {
-  main {
-    flex-direction: column;
-  }
-  .sidebar-left {
-    order: 2;
-  }
 }
