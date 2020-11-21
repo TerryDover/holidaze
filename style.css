@@ -1,6 +1,6 @@
 
 @font-face {
-  src: url(font/Gudea-Bold.ttf);
+  src: url(font/Gudea-Italic.ttf);
   font-family: gud;
   src: url(font/Rancho-Regular.ttf);
   font-family: ran;
@@ -17,7 +17,6 @@ body {
 #container {
   margin: 0px auto;
   width: 840px;
-  /*background-image: url(images/topimage.jpg);*/
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -35,12 +34,11 @@ body {
 }
 
 #myname a {
-  font-family: Verdana, Arial, Times, san-serif;
+  font-family: ran;
   font-size: 90px;
   font-weight: bold;
   color: #ffffff;
   padding-right: 50px;
-  font-family: ran;
 }
 
 #realbody {
@@ -49,9 +47,10 @@ body {
 }
 
 #content {
+  font-family: gud;
+  font-size: 35px;
   width: 640px;
   float: right;
-  background-image: url "";
   background-repeat: no-repeat;
   background-position: bottom right;
   overflow: hidden;
