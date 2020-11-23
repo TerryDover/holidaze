@@ -2,7 +2,9 @@ html {
   background: #82d4e8;
 }
 @font-face {
+
   src: url(font/Gudea-Regular.ttf);
+ main
   font-family: gud;
   src: url(font/Rancho-Regular.ttf);
   font-family: ran;
@@ -22,6 +24,55 @@ main {
   font-family: gud;
 }
 
+
+#container {
+  margin: 0px auto;
+  width: 840px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#head {
+  width: 840px;
+  height: 260px;
+}
+
+#myname {
+  padding-top: 120px;
+  width: 840px;
+  height: 120px;
+  text-align: center;
+}
+
+#myname a {
+  font-family: ran;
+  font-size: 90px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-right: 50px;
+}
+
+#realbody {
+  margin-top: 10px;
+  width: 840px;
+}
+
+#content {
+  font-family: gud;
+  font-size: 35px;
+  width: 640px;
+  float: right;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  overflow: hidden;
+  min-height: 390px;
+}
+
+#content p {
+  font-family: gud;
+  font-size: 35px;
+  color: #ffffff;
+=======
 .item {
   font-size: 1.5rem;
   line-height: 1;
@@ -45,4 +96,5 @@ main {
   .sidebar-left {
     order: 2;
   }
+main
 }
