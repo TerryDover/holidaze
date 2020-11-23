@@ -3,7 +3,7 @@ html {
 }
 @font-face {
   src: url(font/Gudea-Regular.ttf);
-  font-family: gud;
+  font-family: txt;
   src: url(font/Rancho-Regular.ttf);
   font-family: ran;
 }
@@ -19,7 +19,7 @@ main {
   font-size: 30px;
   font-weight: 400;
   color: rgb(65, 58, 58);
-  font-family: gud;
+  font-family: txt;
 }
 
 .item {
